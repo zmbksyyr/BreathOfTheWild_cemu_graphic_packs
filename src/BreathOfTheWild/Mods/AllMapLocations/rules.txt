@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Show All Koroks and Shrines
+path = "The Legend of Zelda: Breath of the Wild/Mods/Show All Koroks and Shrines"
+description = Shows all Koroks and Shrines on the map.
+version = 7
+
