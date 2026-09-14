@@ -1,6 +1,6 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 9999 Map Stamps Limit
-path = "The Legend of Zelda: Breath of the Wild/Cheats/9999 Map Stamps Limit"
-description = "Allows you to place 9999 stamps on the map instead of the default 100.||Original cheat by Kirbymimi. Adjusted by Waikuteru."
+name = 地图印章上限 9999
+path = "塞尔达传说: 旷野之息/修改器/地图印章上限"
+description = Cemu 图形包：地图印章上限 9999。
 version = 7

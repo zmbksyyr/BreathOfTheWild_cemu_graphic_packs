@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Enhancements
-path = "The Legend of Zelda: Breath of the Wild/Enhancements"
-description = Allows you to change post-processing effects and texture detail to enhance the picture.||Made by Kiri, Jamie, M&&M, Pig, Skyth, and clarity preset creators.
+name = 增强插件
+path = "塞尔达传说: 旷野之息/增强插件"
+description = 允许你改变处理效果和纹理细节，以增强画质。
 version = 6
 
 [Default]
@@ -18,199 +18,184 @@ $anisotropy = 1
 # Clarity Preset
 
 [Preset]
-name = Disabled (Default)
-category = Clarity
+name = 禁用 (默认)
+category = 清晰度
 default = 1
 $disableClarity:int = 1
 
 [Preset]
-name = Serfrost's Preset (Recommended)
-category = Clarity
+name = Serfrost的预设 (默认)
+category = 清晰度
 $preset:int = 10
 
 [Preset]
-name = Serfrost's Preset (Dim Display)
-category = Clarity
+name = Serfrost 暗屏
+category = 清晰度
 $preset:int = 9
 
 [Preset]
-name = Serfrost's Preset (Bright Display)
-category = Clarity
+name = Serfrost 亮屏
+category = 清晰度
 $preset:int = 8
 
 [Preset]
-name = Bruz's Preset
-category = Clarity
+name = Bruz的预设
+category = 清晰度
 $preset:int = 1
 
 [Preset]
-name = CellHunter's Preset
-category = Clarity
+name = CellHunter的预设
+category = 清晰度
 $preset:int = 7
 
 [Preset]
-name = Jamie's Preset
-category = Clarity
+name = Jamie的预设
+category = 清晰度
 $preset:int = 3
 
 [Preset]
-name = t3nka Neutral+
-category = Clarity
+name = t3nka中性+
+category = 清晰度
 $preset:int = 2
 
 [Preset]
-name = The Complaining Gamer's Preset
-category = Clarity
+name = Complaining Gamer
+category = 清晰度
 $preset:int = 5
 
 [Preset]
-name = ViskClarity Preset
-category = Clarity
+name = Visk预设
+category = 清晰度
 $preset:int = 11
 
 [Preset]
-name = Contrasty Preset
-category = Clarity
+name = 对比度预设
+category = 清晰度
 $preset:int = 4
 
 [Preset]
-name = Filmic Preset
-category = Clarity
+name = 电影式预设
+category = 清晰度
 $preset:int = 6
 
 [Preset]
-name = Silentverge's Survival of the Wild Preset (Warmer)
-category = Clarity
+name = Silentverge 暖色
+category = 清晰度
 $preset:int = 12
 
 [Preset]
-name = Silentverge's Survival of the Wild Preset (Colder)
-category = Clarity
+name = Silentverge 冷色
+category = 清晰度
 $preset:int = 13
 
 [Preset]
-name = Godot's Mexican Preset
-category = Clarity
+name = 戈多的墨西哥预设
+category = 清晰度
 $preset:int = 14
 
 [Preset]
-name = Hexaae's Clear Preset
-category = Clarity
+name = BSoD游戏的预设
+category = 清晰度
 $preset:int = 15
 
 [Preset]
-name = MaranBr Preset (Little More Intense)
-category = Clarity
+name = 自定义预设
+category = 清晰度
 $preset:int = 16
 
 [Preset]
-name = YeMaoWuXin's Preset (Bright colors)
-category = Clarity
-$preset:int = 17
-
-[Preset]
-name = YeMaoWuXin's Preset (Vivid and clear)
-category = Clarity
-$preset:int = 18
-
-[Preset]
-name = Cobalt's Preset (Saturated & Bright)
-category = Clarity
-$preset:int = 19
-
-[Preset]
-name = User-Defined Preset
-category = Clarity
+name = 用户自定义预设
+category = 清晰度
 $preset:int = 0
 
 # Depth of Field
 
 [Preset]
-name = Disabled (no performance gain)
-category = Depth Of Field
-$disableDOF:int = 1
+name = 启用
+category = 景深
+default = 1
 
 [Preset]
-name = Enabled
-category = Depth Of Field
-default = 1
+name = 禁用 (无性能提升即不提升FPS)
+category = 景深
+$disableDOF:int = 1
 
 # Enhanced Reflections
 
 [Preset]
-name = Normal Reflections
-category = Reflections
+name = 正常反射
+category = 反射效果
 default = 1
 
 [Preset]
-name = Enhanced Reflections
-category = Reflections
+name = 增强反射
+category = 反射效果
 $reflExtra:int = 1
 
 # SSR Sample Count
 
 [Preset]
-name = Disabled
-category = Reflection Range
+name = 禁用
+category = 反射范围
 $sampleCount:int = 0
 
 [Preset]
-name = Extra Low (2 samples)
-category = Reflection Range
+name = 极低 (2 采样)
+category = 反射范围
 $sampleCount:int = 2
 
 [Preset]
-name = Low (4 samples, Default)
-category = Reflection Range
+name = 低 (4 采样, 默认)
+category = 反射范围
 default = 1
 
 [Preset]
-name = Medium (8 samples)
-category = Reflection Range
+name = 中 (8 采样)
+category = 反射范围
 $sampleCount:int = 8
 
 [Preset]
-name = High (16 samples)
-category = Reflection Range
+name = 高 (16 采样)
+category = 反射范围
 $sampleCount:int = 16
 
 [Preset]
-name = Extra High (32 samples)
-category = Reflection Range
+name = 极高 (32 采样)
+category = 反射范围
 $sampleCount:int = 32
 
 [Preset]
-name = Extreme (64 samples)
-category = Reflection Range
+name = 极限 (64 采样)
+category = 反射范围
 $sampleCount:int = 64
 
 # Anisotropic Filtering
 
 [Preset]
-name = Low (1x)
-category = Anisotropic Filtering
-$anisotropy = 1
+name = 极限 (16x)
+category = 各向异性过滤
+$anisotropy = 16
 
 [Preset]
-name = Medium (2x)
-category = Anisotropic Filtering
-$anisotropy = 2
-
-[Preset]
-name = High (4x)
-category = Anisotropic Filtering
-$anisotropy = 4
-
-[Preset]
-name = Ultra (8x, Default)
-category = Anisotropic Filtering
+name = 极高 (8x, 默认)
+category = 各向异性过滤
 default = 1
 $anisotropy = 8
 
 [Preset]
-name = Extreme (16x)
-category = Anisotropic Filtering
-$anisotropy = 16
+name = 高 (4x)
+category = 各向异性过滤
+$anisotropy = 4
+
+[Preset]
+name = 中 (2x)
+category = 各向异性过滤
+$anisotropy = 2
+
+[Preset]
+name = 低 (1x)
+category = 各向异性过滤
+$anisotropy = 1
 
 
 [TextureRedefine]

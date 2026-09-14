@@ -1,6 +1,6 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Infinite Revali's Gale
-path = "The Legend of Zelda: Breath of the Wild/Cheats/Infinite Revali's Gale"
-description = Lets you use Revali's Gale without a time limit.||Made by C313571N and Xalphenos.
+name  = 无限力巴尔的风暴
+path  = "塞尔达传说: 旷野之息/修改器/无限力巴尔的风暴"
+description  = 我想飞得更高!让你无限起飞.||由C313571N 和 Xalphenos制作.
 version = 6

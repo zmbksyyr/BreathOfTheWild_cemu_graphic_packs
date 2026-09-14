@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Remove HUD elements
-path = "The Legend of Zelda: Breath of the Wild/Mods/Remove HUD elements"
-description = Hides HUD elements like the master mode icon, hearts, stamina wheel and subtitles.|This mod only aims to remove things that the game's Pro HUD mode doesn't already remove.
+name  = 移除所有HUD部件
+path  = "塞尔达传说: 旷野之息/模组/移除所有HUD部件"
+description = 移除大师模式图标、心心、耐力槽和字幕等界面元素。
 version = 6
 
 [Default]
@@ -13,52 +13,52 @@ $hideMasterModeIcon:int = 0
 $hideCameraGUI:int = 0
 
 [Preset]
-name = Enabled (Default)
-category = Master Mode Icon
+name  = 启用 (默认)
+category  = 大师设置模式图标
 default = 1
 
 [Preset]
-name = Disabled
-category = Master Mode Icon
+name  = 禁用
+category  = 大师设置模式图标
 $hideMasterModeIcon:int = 1
 
 [Preset]
-name = Enabled (Default)
-category = Hearts
+name  = 启用 (默认)
+category  = 心心
 default = 1
 
 [Preset]
-name = Disabled
-category = Hearts
+name  = 禁用
+category  = 心心
 $hideHearts:int = 1
 
 [Preset]
-name = Enabled (Default)
-category = Stamina
+name  = 启用 (默认)
+category  = 耐力槽
 default = 1
 
 [Preset]
-name = Disabled
-category = Stamina
+name  = 禁用
+category  = 耐力槽
 $hideStamina:int = 1
 
 [Preset]
-name = Enabled (Default)
-category = Camera HUD (for screenshots)
+name  = 启用 (默认)
+category  = 相机HUD (用于截图)
 default = 1
 
 [Preset]
-name = Disabled (messes with text and hearts)
-category = Camera HUD (for screenshots)
+name  = 禁用 (文字和心心可能混乱)
+category  = 相机HUD (用于截图)
 $hideCameraGUI:int = 1
 $hideHearts:int = 1
 
 [Preset]
-name = Enabled (Default)
-category = Subtitles (for screenshots)
+name  = 启用 (默认)
+category  = 字幕(用于截图)
 default = 1
 
 [Preset]
-name = Disabled (messes with text)
-category = Subtitles (for screenshots)
+name  = 禁用 (文字可能混乱)
+category  = 字幕(用于截图)
 $hideSubtitles:int = 1

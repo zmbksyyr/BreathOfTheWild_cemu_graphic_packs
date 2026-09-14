@@ -1,6 +1,6 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Infinite Motorcycle Energy
-path = "The Legend of Zelda: Breath of the Wild/Cheats/Infinite Motorcycle Energy"
-description = Gives you infinite energy for your motorcycle.||Made by C313571N and Xalphenos.
+name  = 无限摩托车能量
+path  = "塞尔达传说: 旷野之息/修改器/无限摩托车能量"
+description  = 爱车百里耗油这么大？给你无限"润滑油"(狗头保命).||由C313571N 和 Xalphenos制作.
 version = 6

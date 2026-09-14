@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Shader Crash (OpenGL and AMD)
-path = "The Legend of Zelda: Breath of the Wild/Workarounds/GPU specific workarounds for OpenGL/AMD: Shader Crash"
-description = Workaround for a shader related crash on AMD when using OpenGL.|Required for Cemu 1.15.8 and above.
+name  = 着色器崩溃修复（AMD）
+path  = "塞尔达传说: 旷野之息/解决方案/针对OpenGL/AMD的GPU:着色器崩溃"
+description  = 当使用OpenGL时，解决AMD着色器相关崩溃的方法.|需Cemu版本1.15.8及以上.
 vendorFilter = amd
 rendererFilter = opengl
 version = 6

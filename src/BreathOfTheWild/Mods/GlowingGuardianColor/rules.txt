@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Glowing Guardian Color
-path = "The Legend of Zelda: Breath of the Wild/Mods/Glowing Guardian Color"
-description = Changes the color of glowing lines on Ancient things.||Note: Half of the lines on ancient weapons are controlled by "Guardian, Stalker, Scout and Guardian Weapons", the other lines are controlled by "Guardian + Skywatcher".  This can be used to make guardian weapons multiple colors.||Made by Kiri and Pig.
+name  = 古代事物发光颜色
+path  = "塞尔达传说: 旷野之息/模组/古代事物发光颜色"
+description = 改变古代装备和守护者的发光颜色。
 version = 6
 
 [Default]
@@ -33,32 +33,32 @@ $grdskyDefault:int = 0
 # Ancient Armor
 
 [Preset]
-name = Malice Red
-category = Ancient Armor
+name  = 邪恶红
+category  = 古代防具
 $armorR = 0.85
 $armorG = 0.029
 $armorB = 0.15
 $armorL_f = 1.0
 
 [Preset]
-name = Guardian Yellow
-category = Ancient Armor
+name  = 守卫者黄
+category  = 古代防具
 $armorR = 1.0
 $armorG = 0.2
 $armorB = 0.059
 $armorL_f = 2.0
 
 [Preset]
-name = Guardian weapon Yellow
-category = Ancient Armor
+name  = 守卫者武器黄
+category  = 古代防具
 $armorR = 1.0
 $armorG = 0.2
 $armorB = 0.0
 $armorL_f = 1.5
 
 [Preset]
-name = Ancient Orange (Default)
-category = Ancient Armor
+name  = 古代橙 (默认)
+category  = 古代防具
 default = 1
 $armorR = 1.0
 $armorG = 0.2
@@ -66,32 +66,24 @@ $armorB = 0.0006
 $armorL_f = 1.0
 
 [Preset]
-name = Ancient weapon Orange
-category = Ancient Armor
+name  = 古代武器橙
+category  = 古代防具
 $armorR = 1.0
 $armorG = 0.15
 $armorB = 0.05
 $armorL_f = 1.0
 
 [Preset]
-name = Energy Blue
-category = Ancient Armor
+name  = 能量蓝
+category  = 古代防具
 $armorR = 0.03
 $armorG = 0.25
 $armorB = 1.0
 $armorL_f = 2.0
 
 [Preset]
-name = Glowing White
-category = Ancient Armor
-$armorR = 1.0
-$armorG = 1.0
-$armorB = 1.0
-$armorL_f = 2.0
-
-[Preset]
-name = Custom (Edit in rules.txt)
-category = Ancient Armor
+name  = 自定义
+category  = 古代防具
 $armorR = 0.000
 $armorG = 0.000
 $armorB = 0.000
@@ -100,70 +92,62 @@ $armorL_f = 2.0  # Brightness scaling factor
 # Ancient Weapons
 
 [Preset]
-name = Malice Red
-category = Ancient Weapons
+name  = 邪恶红
+category  = 古代武器
 $wpnR = 0.85
 $wpnG = 0.029
 $wpnB = 0.15
 $wpnL = 20.0
 
 [Preset]
-name = Guardian Yellow
-category = Ancient Weapons
+name  = 守卫者黄
+category  = 古代武器
 $wpnR = 1.0
 $wpnG = 0.2
 $wpnB = 0.059
 $wpnL = 40.0
 
 [Preset]
-name = Guardian weapon Yellow
-category = Ancient Weapons
+name  = 守卫者武器黄
+category  = 古代武器
 $wpnR = 1.0
 $wpnG = 0.2
 $wpnB = 0.0
 $wpnL = 29.576
 
 [Preset]
-name = Ancient Orange
-category = Ancient Weapons
+name  = 古代橙
+category  = 古代武器
 $wpnR = 1.0
 $wpnG = 0.2
 $wpnB = 0.0006
 $wpnL = 11.525
 
 [Preset]
-name = Ancient weapon Orange
-category = Ancient Weapons
+name  = 古代武器橙
+category  = 古代武器
 $wpnR = 1.0
 $wpnG = 0.15
 $wpnB = 0.05
 $wpnL = 20.0
 
 [Preset]
-name = Energy Blue
-category = Ancient Weapons
+name  = 能量蓝
+category  = 古代武器
 $wpnR = 0.03
 $wpnG = 0.25
 $wpnB = 1.0
 $wpnL = 40.0
 
 [Preset]
-name = Glowing White
-category = Ancient Weapons
-$wpnR = 1.0
-$wpnG = 1.0
-$wpnB = 1.0
-$wpnL = 40.0
-
-[Preset]
-name = Varied (Default)
-category = Ancient Weapons
+name  = 多种多样 (默认)
+category  = 古代武器
 default = 1
 $wpnDefault:int = 1
 
 [Preset]
-name = Custom (Edit in rules.txt)
-category = Ancient Weapons
+name  = 自定义
+category  = 古代武器
 $wpnR = 0.000
 $wpnG = 0.000
 $wpnB = 0.000
@@ -172,8 +156,8 @@ $wpnL = 40.0  # Brightness, can't scale because original unnormalized color use 
 # Decayed Guardian
 
 [Preset]
-name = Malice Red (Default)
-category = Decayed Guardian
+name  = 邪恶红
+category  = 坠毁的守卫者
 default = 1
 $dgrdR = 0.85
 $dgrdG = 0.029
@@ -181,56 +165,48 @@ $dgrdB = 0.15
 $dgrdL_f = 1.0
 
 [Preset]
-name = Guardian Yellow
-category = Decayed Guardian
+name  = 守卫者黄
+category  = 坠毁的守卫者
 $dgrdR = 1.0
 $dgrdG = 0.2
 $dgrdB = 0.059
 $dgrdL_f = 1.0
 
 [Preset]
-name = Guardian weapon Yellow
-category = Decayed Guardian
+name  = 守卫者武器黄
+category  = 坠毁的守卫者
 $dgrdR = 1.0
 $dgrdG = 0.2
 $dgrdB = 0.0
 $dgrdL_f = 1.0
 
 [Preset]
-name = Ancient Orange
-category = Decayed Guardian
+name  = 古代橙
+category  = 坠毁的守卫者
 $dgrdR = 1.0
 $dgrdG = 0.2
 $dgrdB = 0.0006
 $dgrdL_f = 1.0
 
 [Preset]
-name = Ancient weapon Orange
-category = Decayed Guardian
+name  = 古代武器橙
+category  = 坠毁的守卫者
 $dgrdR = 1.0
 $dgrdG = 0.15
 $dgrdB = 0.05
 $dgrdL_f = 1.0
 
 [Preset]
-name = Energy Blue
-category = Decayed Guardian
+name  = 能量蓝
+category  = 坠毁的守卫者
 $dgrdR = 0.03
 $dgrdG = 0.25
 $dgrdB = 1.0
 $dgrdL_f = 1.0
 
 [Preset]
-name = Glowing White
-category = Decayed Guardian
-$dgrdR = 1.0
-$dgrdG = 1.0
-$dgrdB = 1.0
-$dgrdL_f = 1.0
-
-[Preset]
-name = Custom (Edit in rules.txt)
-category = Decayed Guardian
+name  = 自定义
+category  = 坠毁的守卫者
 $dgrdR = 0.000
 $dgrdG = 0.000
 $dgrdB = 0.000
@@ -239,70 +215,62 @@ $dgrdL_f = 1.0
 # Guardian, Stalker, Scout and Weapons
 
 [Preset]
-name = Malice Red
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 邪恶红
+category  = 守护者及武器
 $gsswR = 0.85
 $gsswG = 0.029
 $gsswB = 0.15
 $gsswL_f = 1.0
 
 [Preset]
-name = Guardian Yellow
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 守卫者黄
+category  = 守护者及武器
 $gsswR = 1.0
 $gsswG = 0.2
 $gsswB = 0.059
 $gsswL_f = 1.0
 
 [Preset]
-name = Guardian weapon Yellow
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 守卫者武器黄
+category  = 守护者及武器
 $gsswR = 1.0
 $gsswG = 0.2
 $gsswB = 0.0
 $gsswL_f = 1.0
 
 [Preset]
-name = Ancient Orange
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 古代橙
+category  = 守护者及武器
 $gsswR = 1.0
 $gsswG = 0.2
 $gsswB = 0.0006
 $gsswL_f = 1.0
 
 [Preset]
-name = Ancient weapon Orange
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 古代武器橙
+category  = 守护者及武器
 $gsswR = 1.0
 $gsswG = 0.15
 $gsswB = 0.05
 $gsswL_f = 1.0
 
 [Preset]
-name = Energy Blue
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 能量蓝
+category  = 守护者及武器
 $gsswR = 0.03
 $gsswG = 0.25
 $gsswB = 1.0
 $gsswL_f = 1.0
 
 [Preset]
-name = Glowing White
-category = Guardian, Stalker, Scout and Guardian Weapons
-$gsswR = 1.0
-$gsswG = 1.0
-$gsswB = 1.0
-$gsswL_f = 1.0
-
-[Preset]
-name = Varied (Default)
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 多种多样 (默认)
+category  = 守护者及武器
 default = 1
 $gsswDefault:int = 1
 
 [Preset]
-name = Custom (Edit in rules.txt)
-category = Guardian, Stalker, Scout and Guardian Weapons
+name  = 自定义
+category  = 守护者及武器
 $gsswR = 0.000
 $gsswG = 0.000
 $gsswB = 0.000
@@ -311,70 +279,62 @@ $gsswL_f = 1.0
 # Guardian + Skywatcher
 
 [Preset]
-name = Malice Red
-category = Guardian + Skywatcher
+name  = 邪恶红
+category  = 守护者与空中守护者
 $grdskyR = 0.85
 $grdskyG = 0.029
 $grdskyB = 0.15
 $grdskyL_f = 1.0
 
 [Preset]
-name = Guardian Yellow
-category = Guardian + Skywatcher
+name  = 守卫者黄
+category  = 守护者与空中守护者
 $grdskyR = 1.0
 $grdskyG = 0.2
 $grdskyB = 0.059
 $grdskyL_f = 1.0
 
 [Preset]
-name = Guardian weapon Yellow
-category = Guardian + Skywatcher
+name  = 守卫者武器黄
+category  = 守护者与空中守护者
 $grdskyR = 1.0
 $grdskyG = 0.2
 $grdskyB = 0.0
 $grdskyL_f = 1.0
 
 [Preset]
-name = Ancient Orange
-category = Guardian + Skywatcher
+name  = 古代橙
+category  = 守护者与空中守护者
 $grdskyR = 1.0
 $grdskyG = 0.2
 $grdskyB = 0.0006
 $grdskyL_f = 1.0
 
 [Preset]
-name = Ancient weapon Orange
-category = Guardian + Skywatcher
+name  = 古代武器橙
+category  = 守护者与空中守护者
 $grdskyR = 1.0
 $grdskyG = 0.15
 $grdskyB = 0.05
 $grdskyL_f = 1.0
 
 [Preset]
-name = Energy Blue
-category = Guardian + Skywatcher
+name  = 能量蓝
+category  = 守护者与空中守护者
 $grdskyR = 0.03
 $grdskyG = 0.25
 $grdskyB = 1.0
 $grdskyL_f = 1.0
 
 [Preset]
-name = Glowing White
-category = Guardian + Skywatcher
-$grdskyR = 1.0
-$grdskyG = 1.0
-$grdskyB = 1.0
-$grdskyL_f = 1.0
-
-[Preset]
-name = Varied (Default)
-category = Guardian + Skywatcher
+name  = 多种多样 (默认)
+category  = 守护者与空中守护者
 default = 1
 $grdskyDefault:int = 1
 
 [Preset]
-name = Custom (Edit in rules.txt)
-category = Guardian + Skywatcher
+name  = 自定义
+category  = 守护者与空中守护者
 $grdskyR = 0.000
 $grdskyG = 0.000
 $grdskyB = 0.000

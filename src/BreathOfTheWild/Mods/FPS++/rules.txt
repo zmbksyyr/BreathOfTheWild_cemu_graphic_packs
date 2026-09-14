@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = FPS++
-path = "The Legend of Zelda: Breath of the Wild/Mods/FPS++"
-description = Allows you to change the FPS and the speed that most things run at.|Some bugs might still occur if you run at high FPS.||Made by Xalphenos, rajkosto, epigramx, Crementif, leoetlino, Pig and Exzap.
+path = "塞尔达传说: 旷野之息/模组/FPS++"
+description = Cemu 图形包：FPS++。
 version = 6
 
 [Default]
@@ -28,100 +28,100 @@ $debugMultiplier = 1
 # Settings Mode
 
 [Preset]
-name = Normal Settings
-category = Mode
+name = 普通设置
+category = 设置模式
 default = 1
 $advancedMode:int = 0
 
 [Preset]
-name = Advanced Settings
-category = Mode
+name = 高级设置
+category = 设置模式
 $advancedMode:int = 1
 
 
 # Simple FPS Limit
 
 [Preset]
-name = 240FPS Limit
-category = FPS Limit
+name = 240FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 240
 $keepVsync:int = 0
 
 [Preset]
-name = 165FPS Limit
-category = FPS Limit
+name = 165FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 165
 $keepVsync:int = 0
 
 [Preset]
-name = 144FPS Limit
-category = FPS Limit
+name = 144FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 144
 $keepVsync:int = 0
 
 [Preset]
-name = 120FPS Limit
-category = FPS Limit
+name = 120FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 120
 $keepVsync:int = 0
 
 [Preset]
-name = 90FPS Limit
-category = FPS Limit
+name = 90FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 90
 $keepVsync:int = 0
 
 [Preset]
-name = 75FPS Limit
-category = FPS Limit
+name = 75FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 75
 $keepVsync:int = 0
 
 [Preset]
-name = 72FPS Limit
-category = FPS Limit
+name = 72FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 72
 $keepVsync:int = 0
 
 [Preset]
-name = 60FPS Limit (Default)
-category = FPS Limit
+name = 60FPS限制 (默认)
+category = FPS限制
 condition = $advancedMode == 0
 default = 1
 $fpsLimitNormal = 60
 $keepVsync:int = 0
 
 [Preset]
-name = 55FPS Limit
-category = FPS Limit
+name = 55FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 55
 $keepVsync:int = 0
 
 [Preset]
-name = 45FPS Limit
-category = FPS Limit
+name = 45FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 45
 $keepVsync:int = 0
 
 [Preset]
-name = 30FPS Limit
-category = FPS Limit
+name = 30FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 30
 $keepVsync:int = 0
 
 [Preset]
-name = 20FPS Limit
-category = FPS Limit
+name = 20FPS限制
+category = FPS限制
 condition = $advancedMode == 0
 $fpsLimitNormal = 20
 $keepVsync:int = 0
@@ -132,114 +132,107 @@ $keepVsync:int = 0
 # Framerate Limit
 
 [Preset]
-name = No FPS Limit (for benchmarking)
-category = Framerate Limit
+name = 不限制 FPS（用于性能测试）
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 500
 $keepVsync:int = 0
 
 [Preset]
-name = 244FPS (ideal for 244Hz displays)
-category = Framerate Limit
+name = 244FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 244
 $keepVsync:int = 0
 
 [Preset]
-name = 240FPS (ideal for 240Hz displays)
-category = Framerate Limit
+name = 240FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 240
 $keepVsync:int = 0
 
 [Preset]
-name = 165FPS (ideal for 165Hz displays)
-category = Framerate Limit
+name = 165FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 165
 $keepVsync:int = 0
 
 [Preset]
-name = 144FPS (ideal for 144Hz displays)
-category = Framerate Limit
+name = 144FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 144
 $keepVsync:int = 0
 
 [Preset]
-name = 120FPS (ideal for 240/120/60Hz displays)
-category = Framerate Limit
+name = 120FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 120
 $keepVsync:int = 0
 
 [Preset]
-name = 90FPS (ideal for 360/180/90Hz displays)
-category = Framerate Limit
-condition = $advancedMode == 1
-$fpsLimitAdvanced = 90
-$keepVsync:int = 0
-
-[Preset]
-name = 75FPS (ideal for 75Hz displays)
-category = Framerate Limit
+name = 75FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 75
 $keepVsync:int = 0
 
 [Preset]
-name = 72FPS (ideal for 144Hz displays)
-category = Framerate Limit
+name = 72FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 72
 $keepVsync:int = 0
 
 [Preset]
-name = 60FPS (ideal for 240/120/60Hz displays)
-category = Framerate Limit
+name = 60FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 default = 1
 $fpsLimitAdvanced = 60
 $keepVsync:int = 0
 
 [Preset]
-name = 55FPS (ideal for 165Hz displays)
-category = Framerate Limit
+name = 55FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 55
 $keepVsync:int = 0
 
 [Preset]
-name = 48FPS (ideal for 144Hz displays)
-category = Framerate Limit
+name = 48FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 48
 $keepVsync:int = 0
 
 [Preset]
-name = 40FPS (ideal for 240/120/60Hz displays)
-category = Framerate Limit
+name = 40FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 40
 $keepVsync:int = 0
 
 [Preset]
-name = 33FPS (ideal for 165Hz displays)
-category = Framerate Limit
+name = 33FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 33
 $keepVsync:int = 0
 
 [Preset]
-name = 30FPS (ideal for 240/120/60Hz displays)
-category = Framerate Limit
+name = 30FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 30
 $keepVsync:int = 0
 
 [Preset]
-name = 20FPS (ideal for 240/120/60Hz displays)
-category = Framerate Limit
+name = 20FPS
+category = 帧速率限制
 condition = $advancedMode == 1
 $fpsLimitAdvanced = 20
 $keepVsync:int = 0
@@ -276,41 +269,41 @@ $keepVsync:int = 0
 # Cutscene FPS Limit Mode
 
 [Preset]
-name = Automatically Limit In Few Cutscenes (Recommended)
-category = Cutscene FPS Limit
+name = 部分过场自动限制 (推荐)
+category = 过场动画 FPS 限制
 condition = $advancedMode == 1
 default = 1
 $cutsceneFPSLimitMode:int = 1
 
 [Preset]
-name = Limit all cutscenes to 60FPS
-category = Cutscene FPS Limit
+name = 所有过场限制为 60FPS
+category = 过场动画 FPS 限制
 condition = $advancedMode == 1
 $cutsceneFPSLimitMode:int = 2
 
 [Preset]
-name = Limit all cutscenes to 30FPS
-category = Cutscene FPS Limit
+name = 所有过场限制为 30FPS
+category = 过场动画 FPS 限制
 condition = $advancedMode == 1
 $cutsceneFPSLimitMode:int = 3
 
 [Preset]
-name = Disabled (Causes Crashes Above 30-60FPS)
-category = Cutscene FPS Limit
+name = 禁用（高帧率可能崩溃）
+category = 过场动画 FPS 限制
 condition = $advancedMode == 1
 $cutsceneFPSLimitMode:int = 0
 
 # Static Mode
 
 [Preset]
-name = Enabled (slowdown when under framerate limit)
-category = Static Mode
+name = 启用（低于帧率限制时减速）
+category = 静态模式
 condition = $advancedMode == 1
 $staticFPSMode:int = 1
 
 [Preset]
-name = Disabled (Default, dynamically adjust game speed)
-category = Static Mode
+name = 禁用 (默认, 动态调整游戏速度)
+category = 静态模式
 condition = $advancedMode == 1
 default = 1
 $staticFPSMode:int = 0
@@ -319,33 +312,33 @@ $staticFPSMode:int = 0
 # Frame Average
 
 [Preset]
-name = 16 Frames Averaged
-category = Frame Average
+name = 16 平均帧
+category = 平均帧
 condition = ($advancedMode-$staticFPSMode == 1)
 $frameAverageAmount = 16
 
 [Preset]
-name = 8 Frames Averaged (Default)
-category = Frame Average
+name = 8 平均帧 (默认)
+category = 平均帧
 condition = ($advancedMode-$staticFPSMode == 1)
 default = 1
 $frameAverageAmount = 8
 
 [Preset]
-name = 6 Frames Averaged
-category = Frame Average
+name = 6 平均帧
+category = 平均帧
 condition = ($advancedMode-$staticFPSMode == 1)
 $frameAverageAmount = 6
 
 [Preset]
-name = 4 Frames Averaged (juddery animations)
-category = Frame Average
+name = 4 平均帧 (动画抖动)
+category = 平均帧
 condition = ($advancedMode-$staticFPSMode == 1)
 $frameAverageAmount = 4
 
 [Preset]
-name = 3 Frames Averaged (juddery animations)
-category = Frame Average
+name = 3 平均帧 (动画抖动)
+category = 平均帧
 condition = ($advancedMode-$staticFPSMode == 1)
 $frameAverageAmount = 3
 
@@ -353,21 +346,21 @@ $frameAverageAmount = 3
 # Fence Type
 
 [Preset]
-name = Performance Fence (Default)
-category = Fence Type
+name = 性能Fence (默认)
+category = Fence类型
 condition = $advancedMode == 1
 default = 1
 $fenceMethod = 1
 
 [Preset]
-name = Accurate Fence
-category = Fence Type
+name = 精确Fence
+category = Fence类型
 condition = $advancedMode == 1
 $fenceMethod = 2
 
 [Preset]
-name = Fence Skip
-category = Fence Type
+name = 忽略Fence
+category = Fence类型
 condition = $advancedMode == 1
 $fenceMethod = 3
 
@@ -375,65 +368,65 @@ $fenceMethod = 3
 # Debug Menu Options
 
 [Preset]
-name = Disabled (Default)
-category = Debug Options
+name = 禁用 (默认)
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 default = 1
 $debugMode:int = 0
 $debugMultiplier = 1
 
 [Preset]
-name = Multiply Debug Address By 100x
-category = Debug Options
+name = 将调试地址乘以100x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = 100
 
 [Preset]
-name = Multiply Debug Address By 50x
-category = Debug Options
+name = 将调试地址乘以50x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = 50
 
 [Preset]
-name = Multiply Debug Address By 10x
-category = Debug Options
+name = 将调试地址乘以10x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = 10
 
 [Preset]
-name = Tied To Framerate
-category = Debug Options
+name = 依赖帧速率
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = 1
 
 [Preset]
-name = Divide Debug Value By 10x
-category = Debug Options
+name = 将调试值除以10x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = -10
 
 [Preset]
-name = Divide Debug Value By 30x
-category = Debug Options
+name = 将调试值除以30x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = -30
 
 [Preset]
-name = Divide Debug Value By 50x
-category = Debug Options
+name = 将调试值除以50x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = -50
 
 [Preset]
-name = Divide Debug Value By 100x
-category = Debug Options
+name = 将调试值除以100x
+category = 调试设置
 condition = ($advancedMode + $showDebugModeOptions == 2)
 $debugMode:int = 1
 $debugMultiplier = -100

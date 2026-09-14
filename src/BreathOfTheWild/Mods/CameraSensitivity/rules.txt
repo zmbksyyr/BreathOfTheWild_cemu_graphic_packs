@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Camera Sensitivity
-path = "The Legend of Zelda: Breath of the Wild/Mods/Camera Sensitivity"
-description = Changes the sensitivity of the camera.|On top of the normal sensitivity you can apply additional sensitivity while moving.||With higher sensitivities, vertical sensitivity may feel too high - use last option to fix.||Made by FakeMichau and theboy181.
+name  = 相机灵敏度
+path  = "塞尔达传说: 旷野之息/模组/相机敏感度"
+description  = 如题.|在正常灵敏度的基础上，你可以提高移动灵敏度.||由FakeMichau 和 theboy181制作.
 version = 6
 
 [Default]
@@ -11,172 +11,172 @@ $movementSensitivity = 1.00
 $vertMovementSens = 1.00
 
 [Preset]
-name = 0.5x
-category = Camera Sensitivity
+name  = 0.5x
+category  = 相机敏感度
 $sensitivity = 0.50
 
 [Preset]
-name = 0.75x
-category = Camera Sensitivity
+name  = 0.75x
+category  = 相机敏感度
 $sensitivity = 0.9
 
 [Preset]
-name = 0.9x
-category = Camera Sensitivity
+name  = 0.9x
+category  = 相机敏感度
 $sensitivity = 0.9
 
 [Preset]
-name = 1x (Default)
-category = Camera Sensitivity
+name  = 1x (默认)
+category  = 相机敏感度
 default = 1
 
 [Preset]
-name = 1.1x
-category = Camera Sensitivity
+name  = 1.1x
+category  = 相机敏感度
 $sensitivity = 1.10
 
 [Preset]
-name = 1.25x
-category = Camera Sensitivity
+name  = 1.25x
+category  = 相机敏感度
 $sensitivity = 1.25
 
 [Preset]
-name = 1.4x (Recommended)
-category = Camera Sensitivity
+name  = 1.4x (推荐)
+category  = 相机敏感度
 $sensitivity = 1.40
 
 [Preset]
-name = 1.5x
-category = Camera Sensitivity
+name  = 1.5x
+category  = 相机敏感度
 $sensitivity = 1.50
 
 [Preset]
-name = 1.75x
-category = Camera Sensitivity
+name  = 1.75x
+category  = 相机敏感度
 $sensitivity = 1.75
 
 [Preset]
-name = 2x
-category = Camera Sensitivity
+name  = 2x
+category  = 相机敏感度
 $sensitivity = 2.00
 
 [Preset]
-name = 2.5x
-category = Camera Sensitivity
+name  = 2.5x
+category  = 相机敏感度
 $sensitivity = 2.50
 
 [Preset]
-name = 3x
-category = Camera Sensitivity
+name  = 3x
+category  = 相机敏感度
 $sensitivity = 3.00
 
 
 [Preset]
-name = 0.5x
-category = Additional Movement Sensitivity
+name  = 0.5x
+category  = 额外的运动灵敏度
 $movementSensitivity = 0.5
 
 [Preset]
-name = 0.75x
-category = Additional Movement Sensitivity
+name  = 0.75x
+category  = 额外的运动灵敏度
 $movementSensitivity = 0.75
 
 [Preset]
-name = 0.9x
-category = Additional Movement Sensitivity
+name  = 0.9x
+category  = 额外的运动灵敏度
 $movementSensitivity = 0.9
 
 [Preset]
-name = 1x (Default)
-category = Additional Movement Sensitivity
+name  = 1x (默认)
+category  = 额外的运动灵敏度
 default = 1
 
 [Preset]
-name = 1.1x
-category = Additional Movement Sensitivity
+name  = 1.1x
+category  = 额外的运动灵敏度
 $movementSensitivity = 1.10
 
 [Preset]
-name = 1.15x (Recommended)
-category = Additional Movement Sensitivity
+name  = 1.15x (推荐)
+category  = 额外的运动灵敏度
 $movementSensitivity = 1.15
 
 [Preset]
-name = 1.25x
-category = Additional Movement Sensitivity
+name  = 1.25x
+category  = 额外的运动灵敏度
 $movementSensitivity = 1.25
 
 [Preset]
-name = 1.35x
-category = Additional Movement Sensitivity
+name  = 1.35x
+category  = 额外的运动灵敏度
 $movementSensitivity = 1.35
 
 [Preset]
-name = 1.5x
-category = Additional Movement Sensitivity
+name  = 1.5x
+category  = 额外的运动灵敏度
 $movementSensitivity = 1.50
 
 [Preset]
-name = 2x
-category = Additional Movement Sensitivity
+name  = 2x
+category  = 额外的运动灵敏度
 $movementSensitivity = 2.00
 
 [Preset]
-name = 2.5x
-category = Additional Movement Sensitivity
+name  = 2.5x
+category  = 额外的运动灵敏度
 $movementSensitivity = 2.50
 
 [Preset]
-name = 3x
-category = Additional Movement Sensitivity
+name  = 3x
+category  = 额外的运动灵敏度
 $movementSensitivity = 3.00
 
 [Preset]
-name = 0.2x
-category = Additional Vertical Movement Sensitivity
+name  = 0.2x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.2
 
 [Preset]
-name = 0.3x
-category = Additional Vertical Movement Sensitivity
+name  = 0.3x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.3
 
 [Preset]
-name = 0.4x
-category = Additional Vertical Movement Sensitivity
+name  = 0.4x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.4
 
 [Preset]
-name = 0.5x
-category = Additional Vertical Movement Sensitivity
+name  = 0.5x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.5
 
 [Preset]
-name = 0.6x
-category = Additional Vertical Movement Sensitivity
+name  = 0.6x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.6
 
 [Preset]
-name = 0.7x
-category = Additional Vertical Movement Sensitivity
+name  = 0.7x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.7
 
 [Preset]
-name = 0.8x
-category = Additional Vertical Movement Sensitivity
+name  = 0.8x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.8
 
 [Preset]
-name = 0.9x
-category = Additional Vertical Movement Sensitivity
+name  = 0.9x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 0.9
 
 [Preset]
-name = 1x (Default)
-category = Additional Vertical Movement Sensitivity
+name  = 1x (Default)
+category  = 附加垂直运动灵敏度
 default = 1
 
 [Preset]
-name = 1.1x
-category = Additional Vertical Movement Sensitivity
+name  = 1.1x
+category  = 附加垂直运动灵敏度
 $vertMovementSens = 1.10

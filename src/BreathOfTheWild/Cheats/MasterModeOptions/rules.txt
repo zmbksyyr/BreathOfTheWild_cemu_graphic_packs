@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = "Master Mode Options"
-path = "The Legend of Zelda: Breath of the Wild/Cheats/Master Mode Options"
-description = Allows you to pick and choose which of Nintendo's changes are applied to Master Mode (Does nothing in Normal Mode). A reboot is required to apply changes made while the game is running. ||By Torphedo and Fleevoid, with lots of help from Exzap and leoetlino. 1.5x damage multiplier hack by NiceneNerd.
+name = "大师设置模式选项"
+path = "塞尔达传说: 旷野之息/修改器/大师模式选项"
+description = Cemu 图形包："Master Mode Options"。
 version = 7
 
 [Default]
@@ -18,100 +18,100 @@ $bit8:int = 0x100
 $mmdamage = 0
 
 [Preset]
-name = Disabled (Default)
-category = Show Debug Options
+name = 禁用 (默认)
+category = 显示调试设置
 $debug:int = 0
 
 [Preset]
-name = Enabled (shows broken options)
-category = Show Debug Options
+name = 启用（显示损坏选项）
+category = 显示调试设置
 $debug:int = 1
 
 [Preset]
-name = Disabled (Default)
-category = 1-Hit-Kill Protection
+name = 禁用 (默认)
+category = 防止一击必杀
 $bit3:int = 0x8
 
 [Preset]
-name = Enabled
-category = 1-Hit-Kill Protection
+name = 启用
+category = 防止一击必杀
 $bit3:int = 0x0
 
 [Preset]
-name = Enabled (Default)
-category = No Ganon Stun Lock
+name = 启用（默认）
+category = 取消盖侬硬直锁定
 $bit4:int = 0x10
 
 [Preset]
-name = Disabled
-category = No Ganon Stun Lock
+name = 禁用
+category = 取消盖侬硬直锁定
 $bit4:int = 0x0
 
 [Preset]
-Name = Enabled (Default)
-category = Health Regeneration
+Name = 启用（默认）
+category = 生命恢复
 $bit5:int = 0x20
 
 [Preset]
-Name = Disabled
-category = Health Regeneration
+Name = 禁用
+category = 生命恢复
 $bit5:int = 0x0
 
 [Preset]
-name = Enabled (Default)
-category = Randomized Guardian Fire Timing
+name = 启用（默认）
+category = 守护者火焰随机时机
 $bit6:int = 0x40
 
 [Preset]
-name = Disabled
-category = Randomized Guardian Fire Timing
+name = 禁用
+category = 守护者火焰随机时机
 $bit6:int = 0x0
 
 [Preset]
-name = Enabled (Default)
-category = 1.5x Damage Multiplier from Bosses and Tests of Strength
+name = 启用（默认）
+category = 首领和力之试炼伤害倍率 1.5 倍
 $bit7:int = 0x80
 
 [Preset]
-name = Apply to all enemies
-category = 1.5x Damage Multiplier from Bosses and Tests of Strength
+name = 应用于所有敌人
+category = 首领和力之试炼伤害倍率 1.5 倍
 $mmdamage = 1
 
 [Preset]
-name = Disabled
-category = 1.5x Damage Multiplier from Bosses and Tests of Strength
+name = 禁用
+category = 首领和力之试炼伤害倍率 1.5 倍
 $bit7:int = 0x0
 
 [Preset]
-name = Enabled (Default)
-category = Shorter Enemy Notice
+name = 启用（默认）
+category = 缩短敌人发现时间
 $bit8:int = 0x100
 
 [Preset]
-name = Disabled
-category = Shorter Enemy Notice
+name = 禁用
+category = 缩短敌人发现时间
 $bit8:int = 0x0
 
 [Preset]
-name = Enabled (Default)
-category = IsLastPlayHardMode (Does nothing)
+name = 启用（默认）
+category = 上次是否为大师设置模式（无实际作用）
 condition = $debug == 1
 $bit0:int = 0x1
 
 [Preset]
-name = Disabled
-category = IsLastPlayHardMode (Does nothing)
+name = 禁用
+category = 上次是否为大师设置模式（无实际作用）
 condition = $debug == 1
 $bit0:int = 0x0
 
 [Preset]
-name = Disabled (Default)
-category = Nerf Cooking (Appears to be broken or unimplemented)
+name = 禁用 (默认)
+category = 削弱烹饪（似乎损坏或未实现）
 condition = $debug == 1
 $bit1:int = 0x0
 
 [Preset]
-name = Enabled
-category = Nerf Cooking (Appears to be broken or unimplemented)
+name = 启用
+category = 削弱烹饪（似乎损坏或未实现）
 condition = $debug == 1
 $bit1:int = 0x2

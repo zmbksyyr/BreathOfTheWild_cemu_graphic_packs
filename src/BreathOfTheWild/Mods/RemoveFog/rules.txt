@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Remove (Distant) Fog, Haze and Clouds
-path = "The Legend of Zelda: Breath of the Wild/Mods/Remove Distant Fog"
-description = Allows you to remove or customize each type of fog in the game.|NPC fog will conflict with the remove cel-shading graphic packs.||Made by Skalfate.
+name = 移除远景雾、薄雾和云
+path = "塞尔达传说: 旷野之息/模组/移除远景雾"
+description = Cemu 图形包：移除远景雾、薄雾和云。
 version = 6
 
 [Default]
@@ -50,234 +50,234 @@ $castleaurablue = 1
 
 # Main Menu # ------------------------------
 [Preset]
-category = Main Menu
-name = Distant Fog Settings
+category = 主菜单
+name = 远景雾设置
 $settings = 0
 
 [Preset]
-category = Main Menu
-name = Field Fog Clouds Settings
+category = 主菜单
+name = 野外雾云设置
 $settings = 1
 
 [Preset]
-category = Main Menu
-name = NPC Fog Settings
+category = 主菜单
+name = NPC 雾设置
 $settings = 2
 
 [Preset]
-category = Main Menu
-name = Castle Fog Settings
+category = 主菜单
+name = 城堡雾设置
 $settings = 3
 
 [Preset]
-category = Main Menu
-name = Custom Preset Settings
+category = 主菜单
+name = 自定义预设设置
 $settings = 4
 
 # Seconday Menus ------------------------------
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Default Fog Levels
+category = 远景雾
+name = 默认 雾 等级
 $distantfoglevel = 1
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 0%
+category = 远景雾
+name = 雾 0%
 $distantfoglevel = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 10%
+category = 远景雾
+name = 雾 10%
 $distantfoglevel = 0.1
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 20%
+category = 远景雾
+name = 雾 20%
 $distantfoglevel = 0.2
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 30%
+category = 远景雾
+name = 雾 30%
 $distantfoglevel = 0.3
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 40%
+category = 远景雾
+name = 雾 40%
 $distantfoglevel = 0.4
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 50%
+category = 远景雾
+name = 雾 50%
 $distantfoglevel = 0.5
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 60%
+category = 远景雾
+name = 雾 60%
 $distantfoglevel = 0.6
 
 [Preset]
 condition = $settings == 0
-category = Distant World Fog
-name = Fog 80%
+category = 远景雾
+name = 雾 80%
 $distantfoglevel = 0.8
 
 # ------------------------------
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Default Distant Lighting 1x
+category = 远景光照
+name = 默认 远景光照 1x
 $distantlighting = 1
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Distant Lighting x2
+category = 远景光照
+name = 远景光照 x2
 $distantlighting = 2
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Distant Lighting x3
+category = 远景光照
+name = 远景光照 x3
 $distantlighting = 3
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Distant Lighting x4
+category = 远景光照
+name = 远景光照 x4
 $distantlighting = 4
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Distant Lighting x6
+category = 远景光照
+name = 远景光照 x6
 $distantlighting = 6
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Distant Lighting x8
+category = 远景光照
+name = 远景光照 x8
 $distantlighting = 8
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Darker Distant Lighting 20%
+category = 远景光照
+name = 较暗远景光照 20%
 $distantlighting = 0.8
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Darker Distant Lighting 40%
+category = 远景光照
+name = 较暗远景光照 40%
 $distantlighting = 0.6
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Darker Distant Lighting 60%
+category = 远景光照
+name = 较暗远景光照 60%
 $distantlighting = 0.4
 
 [Preset]
 condition = $settings == 0
-category = Distant Lighting
-name = Darker Distant Lighting 80%
+category = 远景光照
+name = 较暗远景光照 80%
 $distantlighting = 0.2
 
 # ------------------------------
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Default Fog RGB
+category = 远景雾颜色 RGB
+name = 默认 雾 RGB
 $distantfogred = 1
 $distantfoggreen = 1
 $distantfogblue = 1
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Red Fog x1
+category = 远景雾颜色 RGB
+name = 红色雾 x1
 $distantfogred = 1
 $distantfoggreen = 0
 $distantfogblue = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Red Fog x2
+category = 远景雾颜色 RGB
+name = 红色雾 x2
 $distantfogred = 2
 $distantfoggreen = 0
 $distantfogblue = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Red Fog x3
+category = 远景雾颜色 RGB
+name = 红色雾 x3
 $distantfogred = 3
 $distantfoggreen = 0
 $distantfogblue = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Blue Fog x1
+category = 远景雾颜色 RGB
+name = 蓝色雾 x1
 $distantfogred = 0
 $distantfoggreen = 0
 $distantfogblue = 1
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Blue Fog x2
+category = 远景雾颜色 RGB
+name = 蓝色雾 x2
 $distantfogred = 0
 $distantfoggreen = 0
 $distantfogblue = 2
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Blue Fog x3
+category = 远景雾颜色 RGB
+name = 蓝色雾 x3
 $distantfogred = 0
 $distantfoggreen = 0
 $distantfogblue = 3
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Green Fog x1
+category = 远景雾颜色 RGB
+name = 绿色雾 x1
 $distantfogred = 0
 $distantfoggreen = 1
 $distantfogblue = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Green Fog x2
+category = 远景雾颜色 RGB
+name = 绿色雾 x2
 $distantfogred = 0
 $distantfoggreen = 2
 $distantfogblue = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Green Fog x3
+category = 远景雾颜色 RGB
+name = 绿色雾 x3
 $distantfogred = 0
 $distantfoggreen = 3
 $distantfogblue = 0
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Purple Fog x2
+category = 远景雾颜色 RGB
+name = 紫色 雾 x2
 # blue and red makes purple
 $distantfogred = 2
 $distantfoggreen = 0
@@ -285,16 +285,16 @@ $distantfogblue = 2
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Purple Fog x3
+category = 远景雾颜色 RGB
+name = 紫色 雾 x3
 $distantfogred = 3
 $distantfoggreen = 0
 $distantfogblue = 3
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Cyan Fog x2
+category = 远景雾颜色 RGB
+name = 青色 雾 x2
 # blue and green makes cyan
 $distantfogred = 0
 $distantfoggreen = 2
@@ -302,8 +302,8 @@ $distantfogblue = 2
 
 [Preset]
 condition = $settings == 0
-category = Distant Fog Color RGB
-name = Cyan Fog x3
+category = 远景雾颜色 RGB
+name = 青色 雾 x3
 $distantfogred = 0
 $distantfoggreen = 3
 $distantfogblue = 3
@@ -312,54 +312,54 @@ $distantfogblue = 3
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds
-name = Default Field Fog Clouds Enabled
+category = 野外雾云
+name = 默认 野外雾云 启用
 $fieldfogcloudsopacity = 1
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds
-name = Field Fog Clouds Disabled
+category = 野外雾云
+name = 野外雾云 禁用
 $fieldfogcloudsopacity = 0
 
 # Field Fog Clouds ------------------------------
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds RGB
-name = Default RGB Field Fog Clouds
+category = 野外雾云 RGB
+name = 默认 RGB 野外雾云
 $fieldfogcloudsred = 1
 $fieldfogcloudsgreen = 1
 $fieldfogcloudsblue = 1
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds RGB
-name = Red Field Fog Clouds
+category = 野外雾云 RGB
+name = 红色野外雾云
 $fieldfogcloudsred = 30 # red needs amplified levels to be visible
 $fieldfogcloudsgreen = 1
 $fieldfogcloudsblue = 1
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds RGB
-name = Blue Field Fog Clouds
+category = 野外雾云 RGB
+name = 蓝色野外雾云
 $fieldfogcloudsred = 1
 $fieldfogcloudsgreen = 1
 $fieldfogcloudsblue = 4
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds RGB
-name = Green Field Fog Clouds
+category = 野外雾云 RGB
+name = 绿色野外雾云
 $fieldfogcloudsred = 1
 $fieldfogcloudsgreen = 4
 $fieldfogcloudsblue = 1
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds RGB
-name = Purple Field Fog Clouds
+category = 野外雾云 RGB
+name = 紫色野外雾云
 # blue and red makes purple
 $fieldfogcloudsred = 30 # red needs amplified levels to be visible
 $fieldfogcloudsgreen = 1
@@ -367,8 +367,8 @@ $fieldfogcloudsblue = 3
 
 [Preset]
 condition = $settings == 1
-category = Field Fog Clouds RGB
-name = Cyan Field Fog Clouds
+category = 野外雾云 RGB
+name = 青色 野外雾云
 #blue and green makes cyan
 $fieldfogcloudsred = 1 # red needs amplified levels to be visible
 $fieldfogcloudsgreen = 3
@@ -378,64 +378,64 @@ $fieldfogcloudsblue = 3
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Default Distant NPC Fog Enabled
+category = 远景 NPC 雾浓度
+name = 默认 远景 NPC 雾 启用
 $npcfogred = 1
 $npcfoggreen = 1
 $npcfogblue = 1
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 0%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 0%
 $npcfogred = 0
 $npcfoggreen = 0
 $npcfogblue = 0
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 10%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 10%
 $npcfogred = 0.1
 $npcfoggreen = 0.1
 $npcfogblue = 0.1
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 20%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 20%
 $npcfogred = 0.2
 $npcfoggreen = 0.2
 $npcfogblue = 0.2
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 30%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 30%
 $npcfogred = 0.3
 $npcfoggreen = 0.3
 $npcfogblue = 0.3
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 40%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 40%
 $npcfogred = 0.4
 $npcfoggreen = 0.4
 $npcfogblue = 0.4
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 60%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 60%
 $npcfogred = 0.6
 $npcfoggreen = 0.6
 $npcfogblue = 0.6
 
 [Preset]
 condition = $settings == 2
-category = Distant NPC Fog Percentage
-name = Distant NPC Fog 80%
+category = 远景 NPC 雾浓度
+name = 远景 NPC 雾 80%
 $npcfogred = 0.8
 $npcfoggreen = 0.8
 $npcfogblue = 0.8
@@ -446,73 +446,73 @@ $npcfogblue = 0.8
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura
-name = Castle Aura Enabled
+category = 城堡光环
+name = 城堡光环 启用
 $castleauraopacity = 1
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura
-name = Castle Aura Disabled
+category = 城堡光环
+name = 城堡光环 禁用
 $castleauraopacity = 0
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura
-name = Castle Aura 30%
+category = 城堡光环
+name = 城堡光环 30%
 $castleauraopacity = 0.3
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura
-name = Castle Aura 50%
+category = 城堡光环
+name = 城堡光环 50%
 $castleauraopacity = 0.5
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura
-name = Castle Aura 80%
+category = 城堡光环
+name = 城堡光环 80%
 $castleauraopacity = 0.8
 
 # Castle Swirling Aura RGB
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura RGB
-name = Default RGB Castle Aura
+category = 城堡光环 RGB
+name = 默认 RGB 城堡光环
 $castleaurared = 1
 $castleauragreen = 1
 $castleaurablue = 1
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura RGB
-name = Red Castle Aura
+category = 城堡光环 RGB
+name = 红色城堡光环
 $castleaurared = 18
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura RGB
-name = Green Castle Aura
+category = 城堡光环 RGB
+name = 绿色城堡光环
 $castleauragreen = 2
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura RGB
-name = Blue Castle Aura
+category = 城堡光环 RGB
+name = 蓝色城堡光环
 $castleaurablue = 2
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura RGB
-name = Purple Castle Aura
+category = 城堡光环 RGB
+name = 紫色城堡光环
 $castleaurared = 4
 $castleaurablue = 4
 
 [Preset]
 condition = $settings == 3
-category = Castle Aura RGB
-name = Cyan Castle Aura
+category = 城堡光环 RGB
+name = 青色 城堡光环
 $castleaurared = 4
 $castleauragreen = 4
 
@@ -520,73 +520,73 @@ $castleauragreen = 4
 
 [Preset]
 condition = $settings == 3
-category = Castle Fog
-name = Castle Moat Fog Enabled
+category = 城堡雾
+name = 城堡护城河雾 启用
 $castlebasefogopacity = 1
 
 [Preset]
 condition = $settings == 3
-category = Castle Fog
-name = Castle Moat Fog Disabled
+category = 城堡雾
+name = 城堡护城河雾 禁用
 $castlebasefogopacity = 0
 
 [Preset]
 condition = $settings == 3
-category = Castle Fog
-name = Castle Moat Fog 30%
+category = 城堡雾
+name = 城堡护城河雾 30%
 $castlebasefogopacity = 0.3
 
 [Preset]
 condition = $settings == 3
-category = Castle Fog
-name = Castle Moat Fog 50%
+category = 城堡雾
+name = 城堡护城河雾 50%
 $castlebasefogopacity = 0.5
 
 [Preset]
 condition = $settings == 3
-category = Castle Fog
-name = Castle Moat Fog 80%
+category = 城堡雾
+name = 城堡护城河雾 80%
 $castlebasefogopacity = 0.8
 
 # Castle Moat RGB
 
 [Preset]
 condition = $settings == 3
-category = Castle Moat Fog RGB
-name = Default RGB Castle Moat Fog
+category = 城堡护城河雾 RGB
+name = 默认 RGB 城堡护城河雾
 $castlebasefogred = 1
 $castlebasefoggreen = 1
 $castlebasefogblue = 1
 
 [Preset]
 condition = $settings == 3
-category = Castle Moat Fog RGB
-name = Red Castle Moat Fog
+category = 城堡护城河雾 RGB
+name = 红色城堡护城河雾
 $castlebasefogred = 18
 
 [Preset]
 condition = $settings == 3
-category = Castle Moat Fog RGB
-name = Green Castle Moat Fog
+category = 城堡护城河雾 RGB
+name = 绿色城堡护城河雾
 $castlebasefoggreen = 2
 
 [Preset]
 condition = $settings == 3
-category = Castle Moat Fog RGB
-name = Blue Castle Moat Fog
+category = 城堡护城河雾 RGB
+name = 蓝色城堡护城河雾
 $castlebasefogblue = 2
 
 [Preset]
 condition = $settings == 3
-category = Castle Moat Fog RGB
-name = Purple Castle Moat Fog
+category = 城堡护城河雾 RGB
+name = 紫色城堡护城河雾
 $castlebasefogred = 4
 $castlebasefogblue = 4
 
 [Preset]
 condition = $settings == 3
-category = Castle Moat Fog RGB
-name = Cyan Castle Moat Fog
+category = 城堡护城河雾 RGB
+name = 青色 城堡护城河雾
 $castlebasefogred = 4
 $castlebasefoggreen = 4
 
@@ -594,8 +594,8 @@ $castlebasefoggreen = 4
 
 [Preset]
 condition = $settings == 4
-category = CustomPreset
-name = Default Preset
+category = 自定义预设
+name = 默认 预设
 $distantlighting = 1
 $distantfogred = 1
 $distantfoggreen = 1
@@ -611,8 +611,8 @@ $npcfogblue = 1
 
 [Preset]
 condition = $settings == 4
-category = CustomPreset
-name = Custom Preset (Edit Values in rules.txt)
+category = 自定义预设
+name = 自定义预设
 $distantlighting = 1
 #
 $distantfoglevel = 1

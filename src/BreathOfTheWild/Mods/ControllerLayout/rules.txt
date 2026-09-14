@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Xbox Controller Button Layout
-path = "The Legend of Zelda: Breath of the Wild/Mods/Xbox Controller Button Layout"
-description = Swaps the ABXY buttons from the Nintendo layout to the standard PC/Xbox layout.|You can find mods for PS4/PS5 controllers on GameBanana.
+name = Xbox 手柄按键布局
+path = "塞尔达传说: 旷野之息/模组/Xbox手柄布局"
+description = 调整 Xbox 手柄按键布局。
 version = 6
 
 [Default]
